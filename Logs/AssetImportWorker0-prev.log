@@ -1,0 +1,599 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.18f1c1 (93698379025b) revision 9660803'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16108 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.18f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Group A3
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55276
+Successfully changed project path to: E:/Group A3
+E:/Group A3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25288] Host "[IP] 192.168.5.22 [Port] 0 [Flags] 2 [Guid] 2214844297 [EditorId] 2214844297 [Version] 1048832 [Id] WindowsEditor(7,Van) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25288] Host "[IP] 192.168.5.22 [Port] 0 [Flags] 2 [Guid] 2214844297 [EditorId] 2214844297 [Version] 1048832 [Id] WindowsEditor(7,Van) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 59.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1c1 (93698379025b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Group A3/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti Laptop GPU (ID=0x24e0)
+    Vendor:   NVIDIA
+    VRAM:     8032 MB
+    Driver:   31.0.15.4630
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1c1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1c1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.028300 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 296 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 48.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.971 seconds
+Domain Reload Profiling:
+	ReloadAssembly (971ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (687ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (97ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (502ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (368ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (55ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003053 seconds.
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Unity.VisualScripting.Flow.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Telemetry/Unity.Services.Core.Telemetry.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Unity.VisualScripting.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.State/Unity.VisualScripting.State.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Networking/Unity.Services.Core.Networking.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/SettingsProvider/Unity.VisualScripting.SettingsProvider.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Unity.VisualScripting.Flow.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Core.Internal/Unity.Services.Core.Internal.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Configuration/Unity.Services.Core.Configuration.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Core/Unity.Services.Core.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Unity.VisualScripting.Core.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Configuration/Unity.Services.Core.Configuration.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Analytics/Unity.Services.Core.Analytics.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Registration/Unity.Services.Core.Registration.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.Shared/Unity.VisualScripting.Shared.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Environments/Unity.Services.Core.Environments.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Scheduler/Unity.Services.Core.Scheduler.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Environments/Internal/Unity.Services.Core.Environments.Internal.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Threading/Unity.Services.Core.Threading.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Runtime/VisualScripting.State/Unity.VisualScripting.State.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Device/Unity.Services.Core.Device.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Unity.VisualScripting.Flow.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Telemetry/Unity.Services.Core.Telemetry.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Unity.VisualScripting.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.State/Unity.VisualScripting.State.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Networking/Unity.Services.Core.Networking.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/SettingsProvider/Unity.VisualScripting.SettingsProvider.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Unity.VisualScripting.Flow.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Core.Internal/Unity.Services.Core.Internal.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Configuration/Unity.Services.Core.Configuration.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Core/Unity.Services.Core.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Unity.VisualScripting.Core.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Configuration/Unity.Services.Core.Configuration.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Analytics/Unity.Services.Core.Analytics.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Registration/Unity.Services.Core.Registration.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.Shared/Unity.VisualScripting.Shared.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Environments/Unity.Services.Core.Environments.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Scheduler/Unity.Services.Core.Scheduler.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Environments/Internal/Unity.Services.Core.Environments.Internal.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Threading/Unity.Services.Core.Threading.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Runtime/VisualScripting.State/Unity.VisualScripting.State.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Device/Unity.Services.Core.Device.asmdef)
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Unity.VisualScripting.Flow.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Telemetry/Unity.Services.Core.Telemetry.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Unity.VisualScripting.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.State/Unity.VisualScripting.State.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Networking/Unity.Services.Core.Networking.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/SettingsProvider/Unity.VisualScripting.SettingsProvider.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Unity.VisualScripting.Flow.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Core.Internal/Unity.Services.Core.Internal.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Configuration/Unity.Services.Core.Configuration.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Core/Unity.Services.Core.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Unity.VisualScripting.Core.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Configuration/Unity.Services.Core.Configuration.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Analytics/Unity.Services.Core.Analytics.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Registration/Unity.Services.Core.Registration.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.Shared/Unity.VisualScripting.Shared.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Environments/Unity.Services.Core.Environments.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Scheduler/Unity.Services.Core.Scheduler.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Environments/Internal/Unity.Services.Core.Environments.Internal.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Threading/Unity.Services.Core.Threading.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Runtime/VisualScripting.State/Unity.VisualScripting.State.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Device/Unity.Services.Core.Device.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.997 seconds
+Domain Reload Profiling:
+	ReloadAssembly (998ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (731ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (116ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (190ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (38ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (150ms)
+				ProcessInitializeOnLoadAttributes (68ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (38ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (56.0 KB). Loaded Objects now: 3837.
+Memory consumption went from 121.7 MB to 121.7 MB.
+Total: 2.455500 ms (FindLiveObjects: 0.332500 ms CreateObjectMapping: 0.066800 ms MarkObjects: 2.001600 ms  DeleteObjects: 0.053600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 24976.747109 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ccaa32d8e5c1de03c07a5412c8c3c') in 0.007443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.116680 seconds.
+  path: Assets/Scenes/Mainpage.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mainpage.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278480d007b2266347e1e69df918d0bf') in 0.002071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.502303 seconds.
+  path: Assets/Scenes/Mainscene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mainscene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbfb9a95d352224bf926fc25a86bf517') in 0.002079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.707390 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.008586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.386158 seconds.
+  path: Assets/Scenes/cma.unity
+  artifactKey: Guid(2b69a847030b7574a95a714b76e1e7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/cma.unity using Guid(2b69a847030b7574a95a714b76e1e7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176cf0cb070d1b7edaca043f2affb868') in 0.002454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.345824 seconds.
+  path: Assets/Scenes/yfan.unity
+  artifactKey: Guid(da37ad161d9ec4f42ad571f71ce6c76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/yfan.unity using Guid(da37ad161d9ec4f42ad571f71ce6c76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72dfc5043c580f3b306ae436a9628448') in 0.002970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.335836 seconds.
+  path: Assets/Scenes/Yjiang.unity
+  artifactKey: Guid(b537452f8f739fa4fbdfe54b4f5a0c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Yjiang.unity using Guid(b537452f8f739fa4fbdfe54b4f5a0c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e994c95abced2e6fa4fa48fef7297b2') in 0.002793 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015653 seconds.
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Telemetry/Unity.Services.Core.Telemetry.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Networking/Unity.Services.Core.Networking.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Core.Internal/Unity.Services.Core.Internal.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Configuration/Unity.Services.Core.Configuration.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Core/Unity.Services.Core.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Configuration/Unity.Services.Core.Configuration.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Analytics/Unity.Services.Core.Analytics.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Registration/Unity.Services.Core.Registration.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Environments/Unity.Services.Core.Environments.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Scheduler/Unity.Services.Core.Scheduler.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Environments/Internal/Unity.Services.Core.Environments.Internal.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Threading/Unity.Services.Core.Threading.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Device/Unity.Services.Core.Device.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Telemetry/Unity.Services.Core.Telemetry.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Networking/Unity.Services.Core.Networking.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Core.Internal/Unity.Services.Core.Internal.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Configuration/Unity.Services.Core.Configuration.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Core/Unity.Services.Core.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Configuration/Unity.Services.Core.Configuration.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Analytics/Unity.Services.Core.Analytics.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Registration/Unity.Services.Core.Registration.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Environments/Unity.Services.Core.Environments.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Scheduler/Unity.Services.Core.Scheduler.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Environments/Internal/Unity.Services.Core.Environments.Internal.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Threading/Unity.Services.Core.Threading.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Device/Unity.Services.Core.Device.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Group A3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Group A3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Telemetry/Unity.Services.Core.Telemetry.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Networking/Unity.Services.Core.Networking.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Core.Internal/Unity.Services.Core.Internal.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Configuration/Unity.Services.Core.Configuration.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Core/Unity.Services.Core.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Configuration/Unity.Services.Core.Configuration.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Analytics/Unity.Services.Core.Analytics.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Registration/Unity.Services.Core.Registration.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Environments/Unity.Services.Core.Environments.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Scheduler/Unity.Services.Core.Scheduler.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Environments/Internal/Unity.Services.Core.Environments.Internal.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Threading/Unity.Services.Core.Threading.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Device/Unity.Services.Core.Device.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  1.026 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1027ms)
+		BeginReloadAssembly (171ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (726ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (199ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (323ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (37ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3041 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 391 unused Assets / (27.2 KB). Loaded Objects now: 3516.
+Memory consumption went from 116.7 MB to 116.7 MB.
+Total: 2.275600 ms (FindLiveObjects: 0.209700 ms CreateObjectMapping: 0.086400 ms MarkObjects: 1.900100 ms  DeleteObjects: 0.078700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 454.574990 seconds.
+  path: Assets/Off Axis Studios/Polyworks
+  artifactKey: Guid(7fe6e18027bead8489b387c32cede86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks using Guid(7fe6e18027bead8489b387c32cede86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bff48420810778df852b17a4a8f218f') in 0.010345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.499453 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Demos
+  artifactKey: Guid(af74ced0e8210bf4892fd0c144411397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Demos using Guid(af74ced0e8210bf4892fd0c144411397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecf214990152a14442dc4b5b89ce34a') in 0.002674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.198901 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly
+  artifactKey: Guid(a8995c67d9e65a34c9f2355b98242138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly using Guid(a8995c67d9e65a34c9f2355b98242138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f25cc2ae52ac5511ce1302cccf4aa4') in 0.001957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.848264 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype
+  artifactKey: Guid(796fedb9ec41a704795db6963de03a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype using Guid(796fedb9ec41a704795db6963de03a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873be210a72d9b47feb2bb0ae446a5d3') in 0.001722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043179 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_3D_Text_Question_01.prefab
+  artifactKey: Guid(f87f3df8519db2544bcdfa11293197c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_3D_Text_Question_01.prefab using Guid(f87f3df8519db2544bcdfa11293197c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2a609a64925b33e5103333aa98f999') in 0.253616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Vehicle_Car_Wheel_F_L_01.prefab
+  artifactKey: Guid(33338e1a937121e478f8ee21db35937b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Vehicle_Car_Wheel_F_L_01.prefab using Guid(33338e1a937121e478f8ee21db35937b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c497d1ed7d3de508b3ed9e5b3eabbc7d') in 0.012822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Pistol_Body_01.prefab
+  artifactKey: Guid(792f6103faf1fc24f82e754ece834189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Pistol_Body_01.prefab using Guid(792f6103faf1fc24f82e754ece834189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c6498ef03c209eebca0b5da58a3976') in 0.011650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Water_Gun_Body_01.prefab
+  artifactKey: Guid(7970b707b5cd12a43b03023fad3f0aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Water_Gun_Body_01.prefab using Guid(7970b707b5cd12a43b03023fad3f0aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a90afcd43beaeb6894b491bce27a26') in 0.015711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Vegetation_Tree_Trunk_01.prefab
+  artifactKey: Guid(f9de8ed08110e6b42ae7c49a2a916da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Vegetation_Tree_Trunk_01.prefab using Guid(f9de8ed08110e6b42ae7c49a2a916da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5da79821c8244af6aa695c0758111c') in 0.010359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Vegetation_Tree_Generic_01.prefab
+  artifactKey: Guid(228ab12cfebf16a4aa3a66e54bfa0af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Vegetation_Tree_Generic_01.prefab using Guid(228ab12cfebf16a4aa3a66e54bfa0af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295a3a4376ac68e69a61a2f8d119b0b3') in 0.013177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Water_Gun_Bottle_01.prefab
+  artifactKey: Guid(a176624bbff7a1d4fba7a242afeb9561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Water_Gun_Bottle_01.prefab using Guid(a176624bbff7a1d4fba7a242afeb9561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143df04c750026b8bc4a3d29f8827561') in 0.010780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Wooden_Crate_01.prefab
+  artifactKey: Guid(5d67e37acba7ed045b7ffd5c9d9c93ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Wooden_Crate_01.prefab using Guid(5d67e37acba7ed045b7ffd5c9d9c93ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3071d1347a6108ed1f2a02e80c5eee5d') in 0.011336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Sword_01.prefab
+  artifactKey: Guid(8445e904cd4f9e24b9997a92cef95710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Sword_01.prefab using Guid(8445e904cd4f9e24b9997a92cef95710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b1d3da309f75fb5a73416d4ef1206f') in 0.012096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Character_Avatar_Masculine_01_Rigged.prefab
+  artifactKey: Guid(40d8b4ed189b6d34da211835a4dfa783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Character_Avatar_Masculine_01_Rigged.prefab using Guid(40d8b4ed189b6d34da211835a4dfa783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8419f911dee377740ceb4034588df6a4') in 0.037343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Terrain_Mound_02.prefab
+  artifactKey: Guid(fc5140523a9732747b04906ea7b919d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Terrain_Mound_02.prefab using Guid(fc5140523a9732747b04906ea7b919d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116190e6b20bd6a10bbebe840e23bb5b') in 0.009841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Pistol_Slide_01.prefab
+  artifactKey: Guid(29b0114bb6044da4e954ed0842486d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Pistol_Slide_01.prefab using Guid(29b0114bb6044da4e954ed0842486d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b98dc298e28b92fb03403248cc6db9') in 0.009701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Shield_Round_01.prefab
+  artifactKey: Guid(c09258c72505f444491b260183e99b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Shield_Round_01.prefab using Guid(c09258c72505f444491b260183e99b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664d19d7a99dea7aedfd4f660e9d0e33') in 0.012325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Vehicle_Cessna_Plane_Elevator_L_01.prefab
+  artifactKey: Guid(c24ab858c53b9d643ad51db51cedd238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Vehicle_Cessna_Plane_Elevator_L_01.prefab using Guid(c24ab858c53b9d643ad51db51cedd238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5ac9486fada0a9650dc6b1cdc5d76a') in 0.008927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Rifle_01.prefab
+  artifactKey: Guid(eee0caa6b8c04a149bb91215f06e5d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Rifle_01.prefab using Guid(eee0caa6b8c04a149bb91215f06e5d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e534a730705829f22d766ad1adf7a65a') in 0.015657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Vehicle_Car_Wheel_B_R_01.prefab
+  artifactKey: Guid(83646f619213930438d371e979430c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Vehicle_Car_Wheel_B_R_01.prefab using Guid(83646f619213930438d371e979430c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0baa59cf036dc78729c22caafe81af9') in 0.013991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Vehicle_Car_Wheel_B_L_01.prefab
+  artifactKey: Guid(0b38a72600bb02344993d1b58d665ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Vehicle_Car_Wheel_B_L_01.prefab using Guid(0b38a72600bb02344993d1b58d665ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc3e79e6856ef70447a722335d8c5ae') in 0.012246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Rifle_Handle_01.prefab
+  artifactKey: Guid(6e863a1abfcd7c94f98e10e87ffa9b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Rifle_Handle_01.prefab using Guid(6e863a1abfcd7c94f98e10e87ffa9b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5caf0fbec889d214ba64d768a537bb2') in 0.010637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Stunt_Course_Ring_Small_01.prefab
+  artifactKey: Guid(82e89fc08e2c60b46955395fb8b489d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Stunt_Course_Ring_Small_01.prefab using Guid(82e89fc08e2c60b46955395fb8b489d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e72f1ce224e17cfd057b931f1d708da') in 0.010903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Rock_01.prefab
+  artifactKey: Guid(8de71219924da16478932c9c4d64c1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Rock_01.prefab using Guid(8de71219924da16478932c9c4d64c1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3862753bc3f4ea2b689c8b8716144eab') in 0.012809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Vehicle_Car_Wheel_F_R_01.prefab
+  artifactKey: Guid(1b778724975100f4eb0d4a4942bed2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Vehicle_Car_Wheel_F_R_01.prefab using Guid(1b778724975100f4eb0d4a4942bed2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5203b1b1013399d1781aa822ce24fdc4') in 0.012524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Pistol_01.prefab
+  artifactKey: Guid(cd14963364792a84aa3ca6aaf7c83eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Pistol_01.prefab using Guid(cd14963364792a84aa3ca6aaf7c83eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16bc63fcad45431edaec3ca949e95b3f') in 0.018448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Cloud_01.prefab
+  artifactKey: Guid(6329e40e6380b4b458f199789a67aaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Cloud_01.prefab using Guid(6329e40e6380b4b458f199789a67aaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87fa2da66c9345b09d83b66a20ee817') in 0.010903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Rock_04.prefab
+  artifactKey: Guid(f1037bea0c83feb49b275048d8e76e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Rock_04.prefab using Guid(f1037bea0c83feb49b275048d8e76e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7db39d65ef08e5c2bc035ded0b8900') in 0.010929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Terrain_Mound_01.prefab
+  artifactKey: Guid(ae54fe26028c3cf478e48fa3e4ef66b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Prototype/Proto_Terrain_Mound_01.prefab using Guid(ae54fe26028c3cf478e48fa3e4ef66b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc297030a0d74acb85192d3d5f35d3ab') in 0.009071 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
